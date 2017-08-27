@@ -12,33 +12,32 @@ Prerequisites:
 Installation steps:
 
 if the above dependencies are not installed, follow the steps from 1 to 7, otherwise skip to project setup
+
 1.Install node
          brew install node
-	 
-	 
+	 	 
 2.Appium (current version 1.6.3)
           npm install -g appium
 	  
-3. Appium python client libraries
+3.Appium python client libraries
           pip install Appium-Python-Client
 	  
-4. Install Carthage 
+4.Install Carthage 
 	https://github.com/Carthage/Carthage/releases
 	Run ./Scripts/bootstrap.h from /usr/local/lib/node_modules/appium/WebdriverAgent
 	
 5.libimobile device
              brew install libimobiledevice
 	     
-6. Webdriver agent (Clone the project and build it via Xcode)
+	     
+6.Webdriver agent (Clone the project and build it via Xcode)
 	 https://github.com/facebook/WebDriverAgent
 	Copy Webdriver agent to /usr/local/lib/node_modules
-	
-7. Eclipse for IOS with Pydev  
+
+7.Eclipse for IOS with Pydev  
              Pydev  - Python plug in 
 
-
 Project setup
-
 
 1.Clone the project from GIT
 
